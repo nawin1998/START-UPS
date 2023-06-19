@@ -1793,3 +1793,17 @@ hr{
     color: #ffffff;
 
 }
+.arrowed{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    left: 90rem;
+    bottom: 100px;
+    padding: 14px;
+    background-color: #06a3da;
+    color: #ffffff;
+}
+.arrowed i{
+    position: relative;
+    bottom: 5px;
+}

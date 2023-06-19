@@ -474,7 +474,7 @@
         top: 30px;
     }
     .hod5 h4{
-        font-size: 22px;
+        font-size: 18px;
         width: 100%;
     }
     .hod6{
@@ -482,7 +482,7 @@
         top: 60px;
     }
     .hod6 h4{
-        font-size: 22px;
+        font-size: 18px;
         width: 100%;
     }
     .box5{
@@ -522,7 +522,7 @@
         width: 300px;
         border-radius: 10px;
         margin-top: -30px;
-        margin-left: 15%;
+        margin-left: 13%;
         overflow: hidden;
         background-color: #d5e9f6;
     }
@@ -776,5 +776,19 @@
     .cont-foot{
         position: relative;
         top: 7.8rem;
+    }
+    .arrowed{
+        position: fixed;
+        height: 40px;
+        width: 40px;
+        left: 85%;
+        bottom: 110px;
+        padding: 14px;
+        background-color: #06a3da;
+        color: #ffffff;
+    }
+    .arrowed i{
+        position: relative;
+        bottom: 5px;
     }
 }
