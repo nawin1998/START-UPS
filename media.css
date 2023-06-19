@@ -1,0 +1,780 @@
+@media only screen and (min-width: 200px) and (max-width: 912px){
+    .head1{
+        display: none;
+    }
+    .master{
+        position: sticky;
+        top: 0;
+    }
+    .navbar .navLinks {
+        position: absolute;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+    .logo h3{
+        position: relative;
+        left: 30px;
+        font-size: 30px;
+    }
+
+    .navLinks li{
+        background-color: #fff;
+        width: 100%;
+        height: 104%;
+        display: flex;
+        align-items: flex-start;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .navLinks a{
+        position: relative;
+        left: 30px;
+    }
+    .navbar ul li:hover .dropdown-menu{
+        display: block;
+        position: relative;
+        top: 10px;
+        left: -44px;
+    }
+    .navbar ul li:hover .dropdown-menu-1{
+        display: block;
+        position: relative;
+        top: 10px;
+        left: -55px;
+    }
+    .btn {
+        position: relative;
+        display: block;
+        width: 16rem;
+        height: 40px;
+        bottom: 45px;
+        left: 80px;
+
+    }
+    .checkbtn {
+        position: relative;
+        right: 30px;
+        display: block;
+        color: #06a3da;
+        border: 2px solid #06a3da;
+    }
+
+    #check:checked~.navLinks {
+        display: flex;
+    }
+    /* home */
+    .Homecontainer{
+        position: relative;
+        top: 20px;
+        height: 23.3rem;
+        width: 100%;
+    }
+    .slide1{
+        position: relative;
+        background-image: linear-gradient(rgba(7, 7, 7, 0.621),rgba(0, 0, 0, 0.621)),url(images/carousel-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 15rem;
+    }
+    .slide2{
+        background-image: linear-gradient(rgba(7, 7, 7, 0.621),rgba(0, 0, 0, 0.621)),url(images/carousel-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 15rem;
+    }
+    .slidedata{
+        position: absolute;
+        height: 170px;
+        width: 100%;
+        top: 28%;
+        text-align: center;
+    }
+    .slidedata h5{
+        width: 100%;
+        font-size: 17px;
+        font-weight: 5;
+    }
+    .slidedata h1{
+        position: relative;
+        height: 30px;
+        width: 100%;
+        top: 20px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .slidedata .b2{
+        position: relative;
+        height: 30px;
+        width: 70px;
+        top: 65px;
+        right: 10px;
+        font-size: 12px;
+    }
+    .slidedata .b3{
+        position: relative;
+        height: 30px;
+        width: 70px;
+        top: 65px;
+        left: 10px;
+        font-size: 12px;
+    }
+    .slider .arrows{
+        position: absolute;
+        top: 6rem;
+        color: #06a3da;
+        font-weight: 100;
+    }
+    .boxcontainer{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        bottom: 100px;
+    }
+    .boxcount{
+        display: block;
+    }
+    .box1{
+        width: 70%;
+        height: 150px;
+        background-color: #19a4d8;
+    }
+    .box1 .logom i{
+        position: relative;
+        left: 50px;
+    }
+    .box2{
+        width: 70%;
+        height: 150px;
+        background-color: #ffff;
+    }
+    .box3{
+        width: 70%;
+        height: 150px;
+        background-color: #19a4d8;
+    }
+    /* about */
+    .Aboutcontainer{
+        position: relative;
+        height: 70rem;
+    }
+    .aboutsection{
+        display: inline-block;
+    }
+    .ab1{
+        position: relative;
+        width: 100%;
+        top: 10px;
+    }
+    .ab1 h1{
+        width: 65%;
+        font-size: 24px;
+    }
+    .animation{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .ab1 p{
+        position: relative;
+        width: 90%;
+        top: 25px;
+        padding-right: 1rem;
+        font-size: 14px;
+    }
+    .title1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 80%;
+        top: 30px;
+    }
+    .hod1 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .hod2{
+        position: relative;
+        top: 60px;
+    }
+    .hod2 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .title2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 80%;
+        margin-top: 35px;
+    }
+    .hod3 h4{
+        font-size: 22px;
+        width: 200%;
+    }
+    .hod4{
+        position: relative;
+        top: 60px;
+    }
+    .hod4 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .box4{
+        position: relative;
+        height: 100px;
+        width: 90%;
+        left: 23px;
+        top: 30px;
+    }
+    .b4{
+        position: relative;
+        top: 30px;
+        left: 35px;
+    }
+    .aboutpic{
+        position: relative;
+        height: 375px;
+        width: 90%;
+        left: 5%;
+    }
+    .aboutpic img{
+        height: 375%;
+        width: 100%;
+    }
+    /* choose */
+    .Choosecontainer{
+        height: 105rem;
+    }
+    .heading3{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading3 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation1{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .choosey{
+        display: block;
+    }
+    .card1{
+        width: 100%;
+    }
+    .picture{
+        height: 350px;
+        width: 90%;
+        left: 5%;
+        bottom: 10px;
+    }
+    .picture img{
+        position: relative;
+        height: 350px;
+        width: 90%;
+        left: 5%;
+    }
+    .bloc{
+        position: relative;
+        top: 20px;
+        width: 100%;
+    }
+    /* services */
+    .servicecontainer{
+        height: 120rem;
+        
+    }
+    .heading4{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading4 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .ser-card1{
+        display: block;
+    }
+    .ser-card2{
+        position: relative;
+        width: 90%;
+        left: 3%;
+        bottom: 80px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .ser-card3{
+        display: block;
+    }
+    .ser-card4{
+        position: relative;
+        width: 90%;
+        top: 470px;
+        left: 3%;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    /* plan */
+    .plancontainer{
+        height: 108rem;
+    }
+    .heading5{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading5 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .lustom{
+        display: block;
+        margin-top: 5px;
+    }
+    .lustom1{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 80px;
+    }
+    .lustom2{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 80px;
+        border: 1px solid #808080;
+    }
+    .lustom3{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 80px;
+    }
+    .lusinner h1 .tur{
+        font-size: 35px;
+    }
+    .lusinner1 h1 .tur{
+        font-size: 35px;
+    }
+    .lusinner2 h1 .tur{
+        font-size: 35px;
+    }
+    .lusinner h4 .blue1{
+        position: relative;
+        left: 110px;
+    }
+    .lusinner h4 .blue2{
+        position: relative;
+        left: 122px;
+    }
+    .lusinner h4 .red1{
+        position: relative;
+        left: 75px;
+    }
+    .lusinner h4 .red2{
+        position: relative;
+        left: 32px;
+    }
+    .lusinner1 h4 .blue1{
+        position: relative;
+        left: 110px;
+    }
+    .lusinner1 h4 .blue2{
+        position: relative;
+        left: 122px;
+    }
+    .lusinner1 h4 .blue3{
+        position: relative;
+        left: 75px;
+    }
+    .lusinner1 h4 .red2{
+        position: relative;
+        left: 32px;
+    }
+    .lusinner2 h4 .blue1{
+        position: relative;
+        left: 110px;
+    }
+    .lusinner2 h4 .blue2{
+        position: relative;
+        left: 122px;
+    }
+    .lusinner2 h4 .blue3{
+        position: relative;
+        left: 75px;
+    }
+    .lusinner2 h4 .blue4{
+        position: relative;
+        left: 32px;
+    }
+    /* quote */
+    .quotecontainer{
+        height: 72rem;
+    }
+    .quotesection{
+        display: block;
+    }
+    .ab2{
+        position: relative;
+        width: 100%;
+        top: 10px;
+    }
+    .ab2 h1{
+        width: 65%;
+        font-size: 24px;
+    }
+    .animation{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .ab2 p{
+        position: relative;
+        width: 90%;
+        top: 25px;
+        padding-right: 1rem;
+        font-size: 14px;
+    }
+    .title5{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 80%;
+        top: 30px;
+    }
+    .hod5 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .hod6{
+        position: relative;
+        top: 60px;
+    }
+    .hod6 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .box5{
+        position: relative;
+        height: 100px;
+        width: 90%;
+        left: 23px;
+        top: 40px;
+    }
+    .quotepic{
+        position: absolute;
+        width: 90%;
+        top: 494rem;
+        left: 5%;
+    }
+    /* testimonial */
+    .testimonialcontainer{
+        height: 40rem;
+    }
+    .heading6{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading6 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .redder{
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        margin-top: -30px;
+        margin-left: 15%;
+        overflow: hidden;
+        background-color: #d5e9f6;
+    }
+    .redders{
+        height: 200px;
+        width: 500%;
+        display: flex;
+    }
+    .redders input{
+        display: none;
+    }
+    .redde{
+        width: 20%;
+        transition: 2s;
+        float: left;
+    }
+    .redde img{
+        position: relative;
+        height: 110px;
+        width: 110px;
+        top: 30px;
+        left: 30px;
+    }
+    .dum{
+        position: relative;
+        height: 70px;
+        width: 140px;
+        bottom: 55px;
+        left: 170px;
+    }
+    .dum h1{
+        position: relative;
+        right: 17px;
+        font-size: 20px;
+        color: #06a3da;
+    }
+    .dum h4{
+        position: relative;
+        left: -11px;
+    }
+    .dum1{
+        position: relative;
+        top: -30px;
+    }
+    .redde p{
+        position: relative;
+        width: 80%;
+        left: 30px;
+        top: -28px;
+    }
+    .navigation-manual{
+        position: absolute;
+        width: 320px;
+        margin-top: 130px;
+        left: 10%;
+        justify-content: center;
+        display: flex;
+        z-index: 1;
+    }
+    .manual-btn{
+        border: 3px solid #06a3da;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        transition: 1s;
+    }
+    .manual-btn:hover{
+        background-color: rgb(0, 0, 0);
+    }
+    #radio1:checked ~ .first{
+        margin-left: 0%;
+    }
+    #radio2:checked ~ .first{
+        margin-left: -20%;
+    }
+    #radio3:checked ~ .first{
+        margin-left: -40%;
+    }
+    #radio4:checked ~ .first{
+        margin-left: -60%;
+    }
+    /* team */
+    .teamcontainer{
+        height: 118rem;
+    }
+    .heading7{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading7 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .hider i{
+        left: 60px;
+    }
+    .teamcard{
+        display: block;
+    }
+    .teamm1{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 30px;
+    }
+    .teamm2{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 15px;
+    }
+    .teamm3{
+        position: relative;
+        width: 90%;
+        left: 5%;
+    }
+    /* blog */
+    .blogcontainer{
+        height: 117rem;
+    }
+    .heading8{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading8 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .blogcard{
+        display: block;
+    }
+    .blogcard1{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 50px;
+        margin-top: 20px;
+    }
+    /* footer */
+    .footcontainer{
+        height: 122rem;
+    }
+    .footsection{
+        display: inline-block;
+    }
+    .footpics img{
+        position: relative;
+        top: 0px;
+    }
+    .footer-content{
+        position: relative;
+        height: 98.6rem;
+        width: 100%;
+        top: 14rem;
+        background-color:  #0a1e3d;
+    }
+    .contents-1{
+        position: relative;
+        height: 350px;
+        width: 90%;
+        left: 5%;
+    }
+    .contents-1 p{
+        position: relative;
+        top: 0px;
+        font-size: 15px;
+    }
+    .ord{
+        position: relative;
+        top: 20px;
+        left: 25%;
+    }
+    .ord1{
+        position: relative;
+        top: 0px;
+        left: 15px;
+    }
+    .ord1 input{
+        height: 30px;
+
+    }
+    .ord2{
+        height: 30px;
+    }
+    
+    .contents-2{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+    }
+    .cont{
+        display: block;
+        width: 100%;
+        left: 0px;
+    }
+    .cont-1{
+        position: absolute;
+        width: 90%;
+        right: 100px;
+        top: 25rem;
+    }
+    .cont-1 h1{
+        font-size: 25px;
+    }
+    .cont-1 h4{
+        font-size: 18px;
+        font-weight: 10;
+    }
+    .cont-2{
+        position: relative;
+        width: 90%;
+        top: 45rem;
+        left: 30px;
+    }
+    .cont-2 h1{
+        font-size: 25px;
+    }
+    .cont-2 h4{
+        font-size: 18px;
+        font-weight: 10;
+    }
+    .cont-3{
+        position: relative;
+        top: 45rem;
+        width: 90%;
+        left: 30px;
+    }
+    .cont-3 h1{
+        font-size: 25px;
+    }
+    .cont-3 h4{
+        font-size: 18px;
+        font-weight: 10;
+    }
+    .cont-foot{
+        position: relative;
+        top: 7.8rem;
+    }
+}
