@@ -3,8 +3,9 @@
         display: none;
     }
     .master{
-        position: sticky;
+        position: fixed;
         top: 0;
+        width: 100%;
     }
     .navbar .navLinks {
         position: absolute;
@@ -73,8 +74,8 @@
     /* home */
     .Homecontainer{
         position: relative;
-        top: 20px;
-        height: 23.3rem;
+        top: 85px;
+        height: 23.6rem;
         width: 100%;
     }
     .slide1{
@@ -83,14 +84,15 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 15rem;
+        height: 14rem;
+        
     }
     .slide2{
         background-image: linear-gradient(rgba(7, 7, 7, 0.621),rgba(0, 0, 0, 0.621)),url(images/carousel-2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 15rem;
+        height: 14rem;
     }
     .slidedata{
         position: absolute;
@@ -139,7 +141,7 @@
         position: relative;
         height: 400px;
         width: 100%;
-        bottom: 100px;
+        bottom: 70px;
     }
     .boxcount{
         display: block;
@@ -201,7 +203,7 @@
         top: 30px;
     }
     .hod1 h4{
-        font-size: 22px;
+        font-size: 19px;
         width: 100%;
     }
     .hod2{
@@ -209,7 +211,7 @@
         top: 60px;
     }
     .hod2 h4{
-        font-size: 22px;
+        font-size: 19px;
         width: 100%;
     }
     .title2{
@@ -221,7 +223,7 @@
         margin-top: 35px;
     }
     .hod3 h4{
-        font-size: 22px;
+        font-size: 19px;
         width: 200%;
     }
     .hod4{
@@ -229,7 +231,7 @@
         top: 60px;
     }
     .hod4 h4{
-        font-size: 22px;
+        font-size: 19px;
         width: 100%;
     }
     .box4{
@@ -391,15 +393,15 @@
     }
     .lusinner h4 .blue1{
         position: relative;
-        left: 110px;
+        left: 116px;
     }
     .lusinner h4 .blue2{
         position: relative;
-        left: 122px;
+        left: 127px;
     }
     .lusinner h4 .red1{
         position: relative;
-        left: 75px;
+        left: 79px;
     }
     .lusinner h4 .red2{
         position: relative;
@@ -407,15 +409,15 @@
     }
     .lusinner1 h4 .blue1{
         position: relative;
-        left: 110px;
+        left: 118px;
     }
     .lusinner1 h4 .blue2{
         position: relative;
-        left: 122px;
+        left: 127px;
     }
     .lusinner1 h4 .blue3{
         position: relative;
-        left: 75px;
+        left: 79px;
     }
     .lusinner1 h4 .red2{
         position: relative;
@@ -423,15 +425,15 @@
     }
     .lusinner2 h4 .blue1{
         position: relative;
-        left: 110px;
+        left: 118px;
     }
     .lusinner2 h4 .blue2{
         position: relative;
-        left: 122px;
+        left: 127px;
     }
     .lusinner2 h4 .blue3{
         position: relative;
-        left: 75px;
+        left: 79px;
     }
     .lusinner2 h4 .blue4{
         position: relative;
