@@ -3,9 +3,8 @@
         display: none;
     }
     .master{
-        position: fixed;
+        position: sticky;
         top: 0;
-        width: 100%;
     }
     .navbar .navLinks {
         position: absolute;
@@ -31,9 +30,6 @@
         display: flex;
         align-items: flex-start;
         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
-    }
-    body{
-        overflow-x: hidden;
     }
     .navLinks a{
         position: relative;
@@ -74,9 +70,8 @@
     /* home */
     .Homecontainer{
         position: relative;
-        top: 85px;
         height: 23.6rem;
-        width: 100%;
+        
     }
     .slide1{
         position: relative;
@@ -141,7 +136,7 @@
         position: relative;
         height: 400px;
         width: 100%;
-        bottom: 70px;
+        bottom: 100px;
     }
     .boxcount{
         display: block;
@@ -686,6 +681,12 @@
     .footsection{
         display: inline-block;
     }
+    .footpics{
+        position: relative;
+        left: 27%;
+        height: 100px;
+        width: 45%;
+    }
     .footpics img{
         position: relative;
         top: 0px;
@@ -783,14 +784,13 @@
         position: fixed;
         height: 40px;
         width: 40px;
-        left: 85%;
+        left: 60%;
         bottom: 110px;
         padding: 14px;
         background-color: #06a3da;
         color: #ffffff;
     }
     .arrowed i{
-        position: relative;
         bottom: 5px;
     }
 }
