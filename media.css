@@ -75,7 +75,8 @@
     .Homecontainer{
         position: relative;
         top: 85px;
-        height: 25rem;
+        height: 13.5rem;
+        background-color: yellow;
         
     }
     .slide1{
@@ -141,7 +142,7 @@
         position: relative;
         height: 400px;
         width: 100%;
-        bottom: 55px;
+        top: 100px;
     }
     .boxcount{
         display: block;
@@ -169,6 +170,7 @@
     .Aboutcontainer{
         position: relative;
         height: 70rem;
+        top: 160px;
     }
     .aboutsection{
         display: inline-block;
@@ -258,7 +260,9 @@
     }
     /* choose */
     .Choosecontainer{
+        position: relative;
         height: 105rem;
+        top: 150px;
     }
     .heading3{
         position: relative;
@@ -301,6 +305,8 @@
     }
     /* services */
     .servicecontainer{
+        position: relative;
+        top: 60px;
         height: 120rem;
         
     }
@@ -399,51 +405,51 @@
     }
     .lusinner h4 .blue1{
         position: relative;
-        left: 106px;
+        left: 96px;
     }
     .lusinner h4 .blue2{
         position: relative;
-        left: 117px;
+        left: 107px;
     }
     .lusinner h4 .red1{
         position: relative;
-        left: 69px;
+        left: 59px;
     }
     .lusinner h4 .red2{
         position: relative;
-        left: 22px;
+        left: 12px;
     }
     .lusinner1 h4 .blue1{
         position: relative;
-        left: 108px;
+        left: 96px;
     }
     .lusinner1 h4 .blue2{
         position: relative;
-        left: 117px;
+        left: 107px;
     }
     .lusinner1 h4 .blue3{
         position: relative;
-        left: 69px;
+        left: 59px;
     }
     .lusinner1 h4 .red2{
         position: relative;
-        left: 22px;
+        left: 12px;
     }
     .lusinner2 h4 .blue1{
         position: relative;
-        left: 108px;
+        left: 96px;
     }
     .lusinner2 h4 .blue2{
         position: relative;
-        left: 117px;
+        left: 107px;
     }
     .lusinner2 h4 .blue3{
         position: relative;
-        left: 69px;
+        left: 59px;
     }
     .lusinner2 h4 .blue4{
         position: relative;
-        left: 22px;
+        left: 12px;
     }
     /* quote */
     .quotecontainer{
@@ -511,7 +517,7 @@
     .quotepic{
         position: absolute;
         width: 90%;
-        top: 491rem;
+        top: 480rem;
         left: 5%;
     }
     /* testimonial */
