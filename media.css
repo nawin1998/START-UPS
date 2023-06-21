@@ -75,7 +75,7 @@
     .Homecontainer{
         position: relative;
         top: 85px;
-        height: 24rem;
+        height: 25rem;
         
     }
     .slide1{
@@ -84,7 +84,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 15rem;
+        height: 14.8rem;
         
     }
     .slide2{
@@ -92,7 +92,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 15rem;
+        height: 14.8rem;
     }
     .slidedata{
         position: absolute;
@@ -141,7 +141,7 @@
         position: relative;
         height: 400px;
         width: 100%;
-        bottom: 70px;
+        bottom: 55px;
     }
     .boxcount{
         display: block;
@@ -149,7 +149,7 @@
     .box1{
         width: 70%;
         height: 150px;
-        background-color: #19a4d8;
+        background-color: #06a3da;
     }
     .box1 .logom i{
         position: relative;
@@ -163,7 +163,7 @@
     .box3{
         width: 70%;
         height: 150px;
-        background-color: #19a4d8;
+        background-color: #06a3da;
     }
     /* about */
     .Aboutcontainer{
@@ -191,7 +191,7 @@
         position: relative;
         width: 90%;
         top: 25px;
-        padding-right: 1rem;
+        padding-right: 2rem;
         font-size: 14px;
     }
     .title1{
@@ -321,6 +321,8 @@
     }
     .ser-card1{
         display: block;
+        padding: 0 1rem;
+        left: 7%;
     }
     .ser-card2{
         position: relative;
@@ -332,6 +334,8 @@
     }
     .ser-card3{
         display: block;
+        padding: 0 1rem;
+        left: 7%;
     }
     .ser-card4{
         position: relative;
@@ -363,7 +367,7 @@
     .lustom{
         display: block;
         margin-top: 5px;
-        padding: 0 1rem;
+        padding: 0 0rem;
     }
     .lustom1{
         position: relative;
@@ -620,7 +624,7 @@
     }
     /* team */
     .teamcontainer{
-        height: 118rem;
+        height: 94rem;
     }
     .heading7{
         position: relative;
@@ -647,18 +651,21 @@
     .teamm1{
         position: relative;
         width: 90%;
+        height: 25rem;
         left: 5%;
         bottom: 30px;
     }
     .teamm2{
         position: relative;
         width: 90%;
+        height: 25rem;
         left: 5%;
         bottom: 15px;
     }
     .teamm3{
         position: relative;
         width: 90%;
+        height: 25rem;
         left: 5%;
     }
     /* blog */

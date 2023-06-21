@@ -275,7 +275,7 @@ input[type="checkbox"]{
     right: 20px;
     font-size: 20px;
     color: #ffff;
-    background-color: #19a4d8;
+    background-color: #06a3da;
     border: none;
     transition: 1s all;
 }
@@ -313,7 +313,7 @@ input[type="checkbox"]{
     font-weight: 100;
 }
 .slider .arrows:hover{
-    color: #19a4d8;
+    color: #06a3da;
     text-shadow: 0px 0px 10px #ffffff, 0px 0px 10px #ffffff;
 }
 .slider .arrows label{
@@ -356,7 +356,7 @@ input[type="radio"]{
 .box1{
     width: 33.33%;
     height: 150px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .box1 .logom i{
     position: absolute;
@@ -388,7 +388,7 @@ input[type="radio"]{
     top: 45px;
     left: 17%;
     padding: 20px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .box2 .logom h3{
     position: absolute;
@@ -404,7 +404,7 @@ input[type="radio"]{
     position: relative;
     width: 33.33%;
     height: 150px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .box3 .logom i{
     position: absolute;
@@ -444,7 +444,7 @@ input[type="radio"]{
     top: 10px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .ab1 h1{
     position: relative;
@@ -458,7 +458,7 @@ input[type="radio"]{
     margin: 6% 6%;
     height: 5px;
     width: 100px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
  .inner{
     background-color: #ffffff;
@@ -500,7 +500,7 @@ input[type="radio"]{
     top: 13px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .title1 .hod1 h4{
     position: absolute;
@@ -516,7 +516,7 @@ input[type="radio"]{
     top: 13px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .title1 .hod2 h4{
     position: absolute;
@@ -542,7 +542,7 @@ input[type="radio"]{
     top: 13px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .title2 .hod3 h4{
     position: absolute;
@@ -558,7 +558,7 @@ input[type="radio"]{
     top: 13px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .title2 .hod4 h4{
     position: absolute;
@@ -589,7 +589,7 @@ input[type="radio"]{
     left: 15px;
     padding: 20px;
     color: #ffffff;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .b4{
     position: relative;
@@ -601,7 +601,7 @@ input[type="radio"]{
     border: none;
     border-radius: 3px;
     color: #ffffff;
-    background-color: #19a4d8;
+    background-color: #06a3da;
     transition: 1s all;
 }
 .b4:hover{
@@ -639,11 +639,11 @@ input[type="radio"]{
     margin: 6% 6%;
     height: 5px;
     width: 100px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .heading3 h3{
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .heading3 h1{
     position: relative;
@@ -675,7 +675,7 @@ input[type="radio"]{
     top: 15px;
     left: 20px;
     padding: 20px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .card2 h2{
     position: relative;
@@ -698,7 +698,7 @@ input[type="radio"]{
     top: 15px;
     left: 20px;
     padding: 20px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .card3 h2{
     position: relative;
@@ -738,7 +738,7 @@ input[type="radio"]{
     top: 15px;
     left: 20px;
     padding: 20px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .card4 h2{
     position: relative;
@@ -761,7 +761,7 @@ input[type="radio"]{
     top: 15px;
     left: 20px;
     padding: 20px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .card5 h2{
     position: relative;
@@ -789,7 +789,7 @@ input[type="radio"]{
 }
 .heading4 h3{
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .heading4 h1{
     position: relative;
@@ -804,7 +804,7 @@ input[type="radio"]{
     margin: 6% 6%;
     height: 5px;
     width: 100px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .ser-card1{
     position: relative;
@@ -830,7 +830,7 @@ input[type="radio"]{
     transform: rotate(45deg);
     width: fit-content;
     margin: auto;
-    background-color: #19a4d8;
+    background-color: #06a3da;
     
 }
 .ser-card2 i{
@@ -872,7 +872,7 @@ input[type="radio"]{
     transform: rotate(45deg);
     width: fit-content;
     margin: auto;
-    background-color: #19a4d8;
+    background-color: #06a3da;
     
 }
 .ser-card4 i{
@@ -891,7 +891,7 @@ input[type="radio"]{
     text-align: center;
 }
 .dow2{
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .dow2 h2{
     position: relative;
@@ -950,7 +950,7 @@ input[type="radio"]{
 }
 .heading5 h3{
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .heading5 h1{
     position: relative;
@@ -978,7 +978,7 @@ input[type="radio"]{
     top: 10px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lustom1 h5{
     position: relative;
@@ -1014,12 +1014,12 @@ hr{
 .lusinner .blue1{
     position: relative;
     left: 185px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner .blue2{
     position: relative;
     left: 195px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner .red1{
     position: relative;
@@ -1039,7 +1039,7 @@ hr{
     left: 40px;
     font-size: 17px;
     color: #ffff;
-    background-color: #19a4d8;
+    background-color: #06a3da;
     border: none;
     transition: 1s all;
 }
@@ -1060,7 +1060,7 @@ hr{
     top: 10px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lustom2 h5{
     position: relative;
@@ -1096,17 +1096,17 @@ hr{
 .lusinner1 .blue1{
     position: relative;
     left: 185px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner1 .blue2{
     position: relative;
     left: 195px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner1 .blue3{
     position: relative;
     left: 147px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner1 .red2{
     position: relative;
@@ -1124,7 +1124,7 @@ hr{
     top: 10px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lustom3 h5{
     position: relative;
@@ -1160,22 +1160,22 @@ hr{
 .lusinner2 .blue1{
     position: relative;
     left: 185px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner2 .blue2{
     position: relative;
     left: 195px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner2 .blue3{
     position: relative;
     left: 147px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .lusinner2 .blue4{
     position: relative;
     left: 100px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 /* quote */
 .quotecontainer{
@@ -1196,7 +1196,7 @@ hr{
     top: 10px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .ab2 h1{
     position: relative;
@@ -1232,7 +1232,7 @@ hr{
     top: 13px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .title5 .hod5 h4{
     position: absolute;
@@ -1248,7 +1248,7 @@ hr{
     top: 13px;
     left: 40px;
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .title5 .hod6 h4{
     position: absolute;
@@ -1355,7 +1355,7 @@ form{
 }
 .heading6 h3{
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .heading6 h1{
     position: relative;
@@ -1463,7 +1463,7 @@ form{
 }
 .heading7 h3{
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .heading7 h1{
     position: relative;
@@ -1571,7 +1571,7 @@ form{
 }
 .heading8 h3{
     font-size: 25px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 .heading8 h1{
     position: relative;
@@ -1609,7 +1609,7 @@ form{
     top: 50px;
     text-align: center;
     padding: 10px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .bloginn .hor{
     display: flex;
@@ -1618,7 +1618,7 @@ form{
     font-size: 20px;
 }
 .bloginn .hor i{
-    color: #19a4d8;
+    color: #06a3da;
 
 }
 .bloginn h1{
@@ -1642,7 +1642,7 @@ form{
     font-size: 18px;
     top: 2px;
     left: 4px;
-    color: #19a4d8;
+    color: #06a3da;
 }
 /* footer */
 .footcontainer{
@@ -1671,7 +1671,7 @@ form{
     width: 30%;
     height: 85%;
     left: 50px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .ord{
     position: relative;
@@ -1755,7 +1755,7 @@ form{
     margin: 6% 6%;
     height: 5px;
     width: 100px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .cont-1 h4{
     position: relative;
@@ -1784,7 +1784,7 @@ form{
     font-size: 18px;
     margin-left: 5px;
     border-radius: 5px;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .cont-2{
     position: relative;
@@ -1805,7 +1805,7 @@ form{
     color: #ffffff;
 }
 .cont-2 h4 i{
-    color: #19a4d8;
+    color: #06a3da;
 }
 .cont-3{
     position: relative;
@@ -1826,7 +1826,7 @@ form{
     color: #ffffff;
 }
 .cont-3 h4 i{
-    color: #19a4d8;
+    color: #06a3da;
 }
 .cont-foot{
     position: relative;
