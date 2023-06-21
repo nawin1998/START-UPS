@@ -230,7 +230,7 @@ input[type="checkbox"]{
     left: 0;
     width: 200%;
     height: 100%;
-    transition: 2s linear;
+    transition:all 2s zoom-in;
 }
 .slide{
     width: 50%;
@@ -269,30 +269,39 @@ input[type="checkbox"]{
 }
 .slidedata .b2{
     position: relative;
-    height: 40px;
-    width: 150px;
+    height: 60px;
+    width: 170px;
     top: 25px;
     right: 20px;
     font-size: 20px;
+    color: #ffff;
     background-color: #19a4d8;
     border: none;
+    transition: 1s all;
 }
 .slidedata .b3{
     position: relative;
-    height: 40px;
-    width: 150px;
+    height: 60px;
+    width: 170px;
     top: 25px;
-    border: none;
+    border: 2px solid #ffffff;
+    color: #fff;
     font-size: 20px;
+    background-color: transparent;
+    transition: 1s all;
+}
+.slidedata .b2:hover{
+    color: #000000;
+    background-color: #6fbcdf;
+}
+.slidedata .b3:hover{
+    color: #000000;
+    background-color: #fff;
 }
 .slide1{
-    /* background-image: url(images/carousel-1.jpg);
-    filter: brightness(0.4); */
     background-image: linear-gradient(rgba(7, 7, 7, 0.621),rgba(0, 0, 0, 0.621)),url(images/carousel-1.jpg);
 }
 .slide2{
-    /* background-image: url(images/carousel-2.jpg);
-    filter: brightness(0.4); */
     background-image: linear-gradient(rgba(7, 7, 7, 0.621),rgba(0, 0, 0, 0.621)),url(images/carousel-2.jpg);
 }
 .slider .arrows{
@@ -360,11 +369,13 @@ input[type="radio"]{
     position: absolute;
     left: 130px;
     top: 45px;
+    color: #fff;
 }
 .box1 .logom h1{
     position: absolute;
     left: 130px;
     top: 65px;
+    color: #fff;
 }
 .box2{
     position: relative;
@@ -406,11 +417,13 @@ input[type="radio"]{
     position: absolute;
     left: 130px;
     top: 45px;
+    color: #fff;
 }
 .box3 .logom h1{
     position: absolute;
     left: 130px;
     top: 65px;
+    color: #fff;
 }
 /* about */
 .Aboutcontainer{
@@ -587,7 +600,13 @@ input[type="radio"]{
     font-size: 20px;
     border: none;
     border-radius: 3px;
+    color: #ffffff;
     background-color: #19a4d8;
+    transition: 1s all;
+}
+.b4:hover{
+    color: #000000;
+    background-color: #6fbcdf;
 }
 .aboutpic{
     position: absolute;
@@ -638,7 +657,8 @@ input[type="radio"]{
     height: 32rem;
     width: 98%;
     left: 1%;
-    top: 20px;
+    bottom: 40px;
+    padding: 5rem;
 }
 .card1{
     position: relative;
@@ -698,7 +718,7 @@ input[type="radio"]{
     width: 33.33%;
 }
 .picture img{
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
 
@@ -707,6 +727,7 @@ input[type="radio"]{
     display: block;
     width: 33.33%;
     height: 32rem;
+    left: 2%;
 }
 .card4{
     position: relative;
@@ -791,15 +812,16 @@ input[type="radio"]{
     height: 250px;
     width: 90%;
     left: 5%;
-    top: 30px;
+    bottom: 20px;
+   padding: 0 3rem;
 }
 .ser-card2{
     position: relative;
     height: 250px;
     width: 28rem;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
     padding: 1rem;
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 .dow{
@@ -832,15 +854,16 @@ input[type="radio"]{
     height: 250px;
     width: 90%;
     left: 5%;
-    top: 40px;
+    top: 10px;
+    padding: 0 3rem;
 }
 .ser-card4{
     position: relative;
     height: 250px;
     width: 28rem;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
     padding: 1rem;
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 .dow1{
@@ -888,16 +911,24 @@ input[type="radio"]{
 .gud{
     position: absolute;
     display: none;
-    height: 40px;
-    width: 45px;
-    top: 210px;
-    left: 200px;
+    height: 45px;
+    width: 55px;
+    top: 226px;
+    left: 180px;
     background-color: #06a3da;
 }
 .gud i{
     position: relative;
     transform: rotate(1deg);
-    padding: 14px;
+    padding: 15px 20px;
+    color: #fff;
+}
+.gud:hover{
+    
+    background-color: #6fbcdf;
+}
+.gud i:hover{
+    color: #000000;
 }
 .ser-card2:hover .gud{
     display: block;
@@ -934,12 +965,13 @@ input[type="radio"]{
     width: 90%;
     top: 30px;
     left: 5%;
+    padding: 0 3rem;
 }
 .lustom1{
     position: relative;
     height: 100%;
     width: 33.3%;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
 }
 .lustom1 h3{
     position: relative;
@@ -981,22 +1013,22 @@ hr{
 }
 .lusinner .blue1{
     position: relative;
-    left: 15rem;
+    left: 185px;
     color: #19a4d8;
 }
 .lusinner .blue2{
     position: relative;
-    left: 15.7rem;
+    left: 195px;
     color: #19a4d8;
 }
 .lusinner .red1{
     position: relative;
-    left: 12.6rem;
+    left: 147px;
     color: #fa0606;
 }
 .lusinner .red2{
     position: relative;
-    left: 9.9rem;
+    left: 100px;
     color: #fa0606;
 }
 .dev{
@@ -1006,8 +1038,14 @@ hr{
     top: 30px;
     left: 40px;
     font-size: 17px;
+    color: #ffff;
     background-color: #19a4d8;
     border: none;
+    transition: 1s all;
+}
+.dev:hover{
+    color: #000000;
+    background-color: #6fbcdf;
 }
 
 .lustom2{
@@ -1057,29 +1095,29 @@ hr{
 }
 .lusinner1 .blue1{
     position: relative;
-    left: 15rem;
+    left: 185px;
     color: #19a4d8;
 }
 .lusinner1 .blue2{
     position: relative;
-    left: 15.7rem;
+    left: 195px;
     color: #19a4d8;
 }
 .lusinner1 .blue3{
     position: relative;
-    left: 12.7rem;
+    left: 147px;
     color: #19a4d8;
 }
 .lusinner1 .red2{
     position: relative;
-    left: 9.9rem;
+    left: 100px;
     color: #fa0606;
 }
 .lustom3{
     position: relative;
     height: 100%;
     width: 33.3%;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
 }
 .lustom3 h3{
     position: relative;
@@ -1121,22 +1159,22 @@ hr{
 }
 .lusinner2 .blue1{
     position: relative;
-    left: 15rem;
+    left: 185px;
     color: #19a4d8;
 }
 .lusinner2 .blue2{
     position: relative;
-    left: 15.7rem;
+    left: 195px;
     color: #19a4d8;
 }
 .lusinner2 .blue3{
     position: relative;
-    left: 12.7rem;
+    left: 147px;
     color: #19a4d8;
 }
 .lusinner2 .blue4{
     position: relative;
-    left: 9.9rem;
+    left: 100px;
     color: #19a4d8;
 }
 /* quote */
@@ -1145,6 +1183,7 @@ hr{
 }
 .quotesection{
     display: flex;
+    padding: 0 4rem;
 }
 .ab2{
     position: relative;
@@ -1180,6 +1219,7 @@ hr{
     display: flex;
     height: 60px;
     width: 80%;
+    top: 20px;
     left: 40px;
 
 }
@@ -1238,17 +1278,21 @@ hr{
     left: 15px;
     padding: 20px;
     color: #ffffff;
-    background-color: #19a4d8;
+    background-color: #06a3da;
 }
 .quotepic{
     position: absolute;
-    height: 33rem;
-    width: 37%;
+    height: 31rem;
+    width: 33%;
     left: 60%;
     top: 251rem;
     padding: 2rem;
-    background-color: #19a4d8;
+    background-color: #06a3da;
     border-radius: 5px;
+}
+form{
+    position: relative;
+    bottom: 20px;
 }
 .form-control{
     position: relative;
@@ -1326,7 +1370,7 @@ hr{
     margin-top: 40px;
     margin-left: 37%;
     overflow: hidden;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
 }
 .redders{
     height: 200px;
@@ -1434,12 +1478,13 @@ hr{
     width: 96%;
     left: 2%;
     gap: 2%;
+    padding: 0 4rem;
 }
 .teamm1{
     position: relative;
     height: 100%;
     width: 32%;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
 }
 .teamm1 img{
     height: 85%;
@@ -1484,7 +1529,7 @@ hr{
     position: relative;
     height: 100%;
     width: 32%;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
 }
 .teamm2 img{
     height: 85%;
@@ -1500,7 +1545,7 @@ hr{
     position: relative;
     height: 100%;
     width: 32%;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
 }
 .teamm3 img{
     height: 85%;
@@ -1547,11 +1592,15 @@ hr{
     width: 28%;
     height: 100%;
     left: 40px;
-    background-color: #d5e9f6;
+    background-color: #eef9ff;
 }
 .blogcard1 img{
     height: 70%;
-    width: 100%;
+    width: 100%;   
+}
+.blogcard1 img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
 }
 .blogcard1 .inn{
     position: absolute;
