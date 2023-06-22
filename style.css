@@ -1593,6 +1593,8 @@ form{
     height: 100%;
     left: 40px;
     background-color: #eef9ff;
+    overflow-x: hidden;
+    overflow-y: hidden;  
 }
 .blogcard1 img{
     height: 70%;
@@ -1600,7 +1602,6 @@ form{
 }
 .blogcard1 img:hover{
     transform: scale(1.1);
-    overflow: hidden;
 }
 .blogcard1 .inn{
     position: absolute;
