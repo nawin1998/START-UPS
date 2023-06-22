@@ -175,8 +175,10 @@
         position: relative;
         width: 90%;
         top: 25px;
-        padding-right: 2rem;
+        left: 23px;
+        padding: 0 1.5rem;
         font-size: 14px;
+        text-align: left;
     }
     .title1{
         position: relative;
@@ -333,6 +335,10 @@
         margin-top: 30px;
         border-radius: 5px;
     }
+    .gud{
+        position: absolute;
+        left: 40%;
+    }
     /* plan */
     .plancontainer{
         height: 108rem;
@@ -460,10 +466,10 @@
         position: relative;
         width: 90%;
         top: 20px;
-        left: 26px;
+        left: 23px;
         padding: 0 1rem;
         font-size: 14px;
-        text-align: left;
+        text-align: center;
     }
     .title5{
         position: relative;
@@ -630,7 +636,7 @@
         top: 15px;
     }
     .hider i{
-        left: 60px;
+        left: 27px;
     }
     .teamcard{
         display: block;
