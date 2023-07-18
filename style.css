@@ -1047,7 +1047,6 @@ hr{
     color: #000000;
     background-color: #6fbcdf;
 }
-
 .lustom2{
     position: relative;
     height: 100%;
@@ -1596,11 +1595,17 @@ form{
     background-color: #eef9ff;
     overflow: hidden;     
 }
-.blogcard1 img{
+.blogcard1 .blogpic{
     height: 70%;
-    width: 100%;    
+    width: 100%; 
+    overflow: hidden;  
 }
-.blogcard1 img:hover{
+.blogpic img{
+    height: 99%;
+    width: 100%;
+    transition: all 0.4s;
+}
+.blogpic img:hover{
     transform: scale(1.1);
 }
 .blogcard1 .inn{
